@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <!-- 当autolink属性的值为web的时候,如果想要显示出正确的效果,那么就必须. -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="http://www.cnblogs.com/ryan1012/archive/2011/07/12/2104087.html"
+        />
+    
+</RelativeLayout>
